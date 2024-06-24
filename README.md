@@ -18,6 +18,10 @@ Install dependencies:
 
 pip install -r requirements.txt
 
+Before starting the application for the first time, you must create an admin account. To do this, first run:
+python create_admin.py
+
+This operation will create the user 'admin' with the password 'admin_password'
 
 Run the application:
 python run.py
